@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "tailwind:watch": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/styles.min.css --watch",
+    "start": "npm run tailwind:watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
