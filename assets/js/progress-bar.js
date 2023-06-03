@@ -8,7 +8,7 @@ function updateProgressBar( total, needed ) {
   }
   const totalFiles = progressBar.getAttribute("total");
   const filesNeeded = progressBar.getAttribute("needed")
-  progressBar.style.width = `${100 - (filesNeeded/totalFiles*100)}%`
+  progressBar.style.width = 100 - (filesNeeded/totalFiles*100) + "%";
 }
 
 function SetFilesTotal( total ) {
