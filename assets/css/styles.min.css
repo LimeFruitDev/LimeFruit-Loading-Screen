@@ -1787,18 +1787,6 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/assets\/images\/bg\.jpg\'\)\] {
-  background-image: url('./assets/images/bg.jpg');
-}
-
-.bg-\[url\(\'\.\/assets\/images\/diagonal-lines\.svg\'\)\] {
-  background-image: url('./assets/images/diagonal-lines.svg');
-}
-
-.bg-\[url\(\'\/assets\/images\/diagonal-lines\.svg\'\)\] {
-  background-image: url('/assets/images/diagonal-lines.svg');
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
